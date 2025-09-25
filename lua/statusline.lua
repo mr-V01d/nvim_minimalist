@@ -24,7 +24,7 @@ local function file_type()
   }
 
   if ft == "" then
-    return "  "
+    return "[NIL]"
   end
 
   return (icons[ft] or ft)
@@ -43,7 +43,7 @@ end
 -- File size
 local function file_size()
   local size = vim.fn.getfsize(vim.fn.expand('%'))
-  if size < 0 then return "" end
+  if size < 0 then return "[NIL]" end
   if size < 1024 then
     return size .. "B "
   elseif size < 1024 * 1024 then
