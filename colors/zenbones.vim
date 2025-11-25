@@ -137,7 +137,7 @@ if &background ==# 'dark'
     highlight IblScope guifg=#494341 guibg=NONE guisp=NONE gui=NONE cterm=NONE
     highlight! link IndentLineCurrent IblScope
     highlight Identifier guifg=#979FA4 guibg=NONE guisp=NONE gui=NONE cterm=NONE
-    highlight IncSearch guifg=#1C1917 guibg=#BF8FB5 guisp=NONE gui=bold cterm=bold
+    highlight IncSearch guifg=#1C1917 guibg=#8E7CC3 guisp=NONE gui=bold cterm=bold
     highlight! link CurSearch IncSearch
     highlight Italic guifg=NONE guibg=NONE guisp=NONE gui=italic cterm=italic
     highlight LineNr guifg=#685F5A guibg=NONE guisp=NONE gui=NONE cterm=NONE

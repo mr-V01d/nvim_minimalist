@@ -33,6 +33,7 @@ vim.opt.winblend = 0                               -- Floating window transparen
 vim.opt.conceallevel = 0                           -- Don't hide markup 
 vim.opt.concealcursor = ""                         -- Don't hide cursor line markup 
 vim.opt.lazyredraw = true                          -- Don't redraw during macros
+vim.g.markdown_recommended_style = 0               -- Don't user markdown style
 
 -- File handling
 vim.opt.updatetime = 300                           -- Faster completion

@@ -8,6 +8,7 @@ vim.keymap.set("n", "<leader>c", ":nohlsearch<CR>", { desc = "Clear search highl
 -- Buffer navigation
 vim.keymap.set("n", "<leader>bn", ":bnext<CR>", { desc = "Next buffer" })
 vim.keymap.set("n", "<leader>bp", ":bprevious<CR>", { desc = "Previous buffer" })
+vim.keymap.set("n", "<leader>bd", ":bdelete<CR>", { desc = "Delete buffer" })
 
 -- Move lines up/down
 vim.keymap.set("n", "<A-j>", ":m .+1<CR>==", { desc = "Move line down" })
