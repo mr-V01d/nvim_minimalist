@@ -73,3 +73,9 @@ local undodir = vim.fn.expand("~/.vim/undodir")
 if vim.fn.isdirectory(undodir) == 0 then
   vim.fn.mkdir(undodir, "p")
 end
+
+-- C headers
+vim.g.c_syntax_for_h = 1
+
+-- Netrw buffer settings
+vim.g.netrw_bufsettings = 'noma nomod nu rnu nobl nowrap ro'

@@ -21,6 +21,7 @@ local function file_type()
     vim = "[VIM]",
     sh = "[SH]",
     c = "[C]",
+    cpp = "[CXX]"
   }
 
   if ft == "" then
