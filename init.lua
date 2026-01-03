@@ -1,3 +1,4 @@
+require "server"
 require "theme"
 require "basics"
 require "keymap"
